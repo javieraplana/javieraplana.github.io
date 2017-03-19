@@ -1,40 +1,66 @@
-/*menu css style based on http://www.w3schools.com/css/css_navbar.asp*/
+/*css for javiera plana*/
+/*by aaron montoya-moraga*/
+/*with tons of help by wipawe sirikolkarn*/
+/*march 2017*/
+
+p, h1, h2, h3, h4, h5, h6 {
+    font-family: Helvetica, sans-serif;
+    font-weight: normal;
+    text-align: center;
+}
 
 ul {
+    display: inline-flex;
     list-style-type: none;
-    margin: 0;
     padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
 }
 
-li {
-    float: left;
+li a{
+  font-family: Helvetica, sans-serif;
+  text-decoration: none;
+  color: black;
+  float: left;
+  padding: 8px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+li a:hover{
+  opacity: 0.5;
 }
 
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-    background-color: #111;
-}
 
-/*img css style based on http://www.w3schools.com/css/css_align.asp */
 img {
     display: block;
     margin: auto;
     width: 75%;
 }
 
-.header {
-    text-align: center;
+a{
+  font-family: Helvetica, sans-serif;
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+  opacity: 0.5;
+}
+
+.linktohome {
+  text-decoration: none;
+  color: black;
+}
+
+.linktohome:hover{
+  opacity: 0.5;
+}
+
+.nav {
+  text-align: center;
+}
+
+.coverpiccontent {
+    border-radius: 20px;
+    max-width: 60%;
+    height: auto;
 }
